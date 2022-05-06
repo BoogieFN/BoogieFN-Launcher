@@ -1,0 +1,20 @@
+<Window 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       Title="BoogieFN" Height="450" Width="800" Background="#FF36393F" WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="BOOGIEFN" HorizontalAlignment="Left" Margin="39,135,0,0" VerticalAlignment="Top" FontFamily="Burbank Big Cd Bk" FontSize="110" Width="696" Height="190" Foreground="White"/>
+        <Button x:Name="launch" Content="Launch" Margin="48,237,584,0" VerticalAlignment="Top" Width="160" Height="40" Click="launch_Click" BorderBrush="White" Background="White"/>
+        <Button x:Name="discord" Content="Discord Server" Margin="213,237,419,0" VerticalAlignment="Top" Width="160" Height="40" Click="discord_Click" Foreground="Black" BorderBrush="White" Background="White"/>
+        <Image Margin="550,38,10,262" Source="https://cdn2.unrealengine.com/20br-keyart-alt-branded-3840x2160-5f4bfe3f7c37.jpg" Stretch="Fill" Width="213" Height="120"/>
+        <Label Content="BoogieFN News" HorizontalAlignment="Left" Margin="560,10,0,0" VerticalAlignment="Top" Height="28" Width="123" FontFamily="Burbank Big Cd Bk" FontSize="20" Foreground="White" FontStyle="Normal" Background="Transparent"/>
+        <Label Content="Resources" HorizontalAlignment="Left" Margin="560,163,0,0" VerticalAlignment="Top" Height="28" Width="110" FontFamily="Burbank Big Cd Bk" FontSize="20" Foreground="White" FontStyle="Normal" Background="Transparent"/>
+        <Button x:Name="github" Content="GitHub" Margin="560,196,140,0" VerticalAlignment="Top" Width="92" Height="35" Click="github_Click" FontSize="14" FontStyle="Normal" BorderBrush="White" Background="White"/>
+        <Button x:Name="dashbrd" Content="Dashboard" Margin="657,196,42,0" VerticalAlignment="Top" Width="93" Height="35" Click="dashbrd_Click" BorderBrush="White" Background="White"/>
+        <Button x:Name="tut" Content="Tutorial" Margin="657,236,42,0" VerticalAlignment="Top" Width="93" Height="35" Click="tut_Click" BorderBrush="White" Background="White"/>
+        <Button x:Name="srcl" Content="Source Code" Margin="560,236,140,0" VerticalAlignment="Top" Width="92" Height="35" Click="srcl_Click" FontSize="12" BorderBrush="White" Background="White"/>
+
+
+
+    </Grid>
+</Window> 
